@@ -17,3 +17,9 @@ if number % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+
+# Challenge: Leap year checker
+year = int(input("Enter a year: "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(f"{year} is a leap year.")    
