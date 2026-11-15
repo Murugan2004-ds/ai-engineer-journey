@@ -26,3 +26,11 @@ for letter in word.lower():
     if letter in "aeiou":
         count += 1
 print("Vowels:", count)
+
+
+# Challenge: print the numbers 1 to 20,but print "Fizz" instead of any number divisible by 3.
+for i in range(1, 21):
+    if i % 3 == 0:
+        print("Fizz")
+    else:
+        print(i)
