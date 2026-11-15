@@ -26,3 +26,7 @@ def count_vowels(word):
         if letter in "aeiou":
             count += 1
     return count
+
+print(count_vowels("Python"))
+print(count_vowels("Education"))
+print(count_vowels("rhythm"))
